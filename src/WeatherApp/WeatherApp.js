@@ -76,7 +76,7 @@ const WeatherApp = () => {
 
   return (
     <>
-      <div className='w-96 h-[550px] mt-10 rounded-md p-10 mx-auto bg-gradient-to-r from-[#130754] to-[#3b2f80] flex flex-col items-center'>
+      <div className='w-96 mt-10 rounded-md p-10 mx-auto bg-gradient-to-r from-[#130754] to-[#3b2f80] flex flex-col items-center'>
         <div className='text-center flex justify-center gap-2 items-center'>
           <input
             ref={inputRef}
